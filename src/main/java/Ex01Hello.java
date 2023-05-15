@@ -33,6 +33,7 @@ public class Ex01Hello extends HttpServlet {
 		
 		//print(String) : 스트림을 통해서 텍스트를 출력할떄 쓰는 문구
 		out.print("<b>Hello Servlet!</b>");
+		out.print("안녕");
 	}
 
 }
